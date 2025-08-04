@@ -1,10 +1,13 @@
-import { Button } from './components/ui/button'
+import { Outlet } from 'react-router'
+import MainLayout from './components/layout/MainLayout'
 
 function App() {
 
   return (
     <>
-      <Button>Button</Button>
+      <MainLayout>
+        <Outlet />
+      </MainLayout>
     </>
   )
 }
