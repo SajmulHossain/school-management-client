@@ -1,9 +1,8 @@
-import Flex from "@/components/modules/home/Flex";
 
 const Home = () => {
     return (
         <section>
-            <Flex />
+            This is Home Componenet
         </section>
     );
 };
